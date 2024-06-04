@@ -6,5 +6,34 @@ body {
 .btn {
   display:inline-block;
   padding:10px;
+  color:rgba(255,255,255,0);
+  width:70px;
+  height:70px;
+  background-size:covor;
+  background-color:rgba(0,0,0,0)
 }
 
+.spr {
+  background-image:url("spr.png");
+}
+
+.mai {
+  background-image:url("mai.webp");
+}
+
+.cla {
+  background-image:url("cla.svg");
+}
+
+.doc {
+  background-image:url("doc.png");
+}
+
+.dri {
+  background-image:url("dri.png");
+}
+
+.btn:hover {
+  color:rgba(255,255,255,1);
+  background-color:rgba(0,0,0,0.7);
+}
